@@ -1,5 +1,6 @@
-.footer{
+.footer {
   margin-top: 156px;
+  margin-bottom: 88px;
   padding: 0 50px;
   display: flex;
   justify-content: space-between;
@@ -10,30 +11,29 @@
   text-align: center;
 }
 
-.footer__menu-link{
+.footer__menu-link {
   font-size: 18px;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
   text-decoration: none;
 }
 
 .footer__social-list {
   display: flex;
   gap: 48px;
-  height: 48px;
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   list-style-type: none;
 }
 
-.footer__social-link{
+.footer__social-link {
   display: block;
-  height: 48px;
   text-decoration: none;
 }
 
-.footer__social-icon{
+.footer__social-icon {
+  height: 48px;
   width: 48px;
 }
