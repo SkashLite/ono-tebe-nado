@@ -25,18 +25,20 @@
   max-width: 334px;
   min-height: 563px;
   position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
 
 .card-link {
   flex-basis: 334px;
-  height: 100%;
   padding: 51px 40px 48px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-size: cover;
-  background-position: center center;
   text-decoration: none;
+  flex-grow: 1;
+  min-height: 100%;
 }
 
 .card_type_film {
