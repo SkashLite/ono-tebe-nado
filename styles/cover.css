@@ -26,24 +26,20 @@
   gap: 20px;
   padding: 165px 50px 135px;
   position: relative;
+  line-height: 100%;
 }
 
 .aligned-text {
   line-height: 113%;
-  letter-spacing: 30px;
 }
 
 .aligned-text_center {
   text-align: center;
-  line-height: 100%;
-  letter-spacing: 30px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
   margin-right: -30px;
-  line-height: 100%;
-  letter-spacing: 60px;
 }
 
 .letter-spacing-extended {

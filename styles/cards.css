@@ -28,16 +28,21 @@
   background-size: cover;
   background-position: center center;
   height: 100%;
+  display: flex;
 }
 
 .card-link {
   flex-basis: 334px;
   padding: 51px 40px 48px;
+  text-decoration: none;
+  flex-grow: 1;
+  min-height: 100%;
+}
+
+.card-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-decoration: none;
-  flex-grow: 1;
   min-height: 100%;
 }
 
